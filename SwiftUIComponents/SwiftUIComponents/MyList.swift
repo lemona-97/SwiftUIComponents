@@ -17,28 +17,38 @@ struct MyList: View {
         let people: [Person] = [Person(name: "Henry", imageName: "heart"),
                                Person(name: "James", imageName: "heart.fill"),
                                Person(name: "Eminem", imageName: "mic")]
-        List(people) { person in
-            
-            HStack {
-                Image(systemName: person.imageName)
-                Text(person.name)
-                
-            }
-        }
         List {
-            HStack {
-                Image(systemName: "heart")
-                Text("Henry")
+            Section {
+                ForEach(people) { person in
+                    HStack {
+                        Image(systemName: person.imageName)
+                        Text(person.name)
+                    }
+                }
+
+            } header: {
+                Text("Header")
+            } footer: {
+                Text("Footer")
             }
-            HStack {
-                Image(systemName: "heart.fill")
-                Text("James")
-            }
-            HStack {
-                Image(systemName: "bolt")
-                Text("Eminem")
+            Section {
+                ForEach(people) { person in
+                    HStack {
+                        Image(systemName: person.imageName)
+                        Text(person.name)
+                    }
+                }
+
+            } header: {
+                VStack {
+                    Text("Header")
+                    Text("Header2")
+                }
+            } footer: {
+                Text("Footer")
             }
         }
+
         
     }
 }
@@ -50,3 +60,6 @@ struct MyList: View {
 // UITableView와 비슷
 // 배열에서 값을 꺼내 쓸 때 값이 구분된다는것을 보장 해줘야해서 identifiable 해야한다
 // UUID는 거의 고유하다고 볼 수 있음
+// Header에는 대문자로 자동 변환됨
+// Footer는 자동변환 안됨
+// List안에 List는 안되는것 같다
