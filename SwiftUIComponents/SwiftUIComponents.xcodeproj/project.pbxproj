@@ -18,6 +18,7 @@
 		FA157FD52B0746C800556627 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA157FD42B0746C800556627 /* MyList.swift */; };
 		FA157FD72B07501700556627 /* MySpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA157FD62B07501700556627 /* MySpacer.swift */; };
 		FA157FD92B0754D700556627 /* MyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA157FD82B0754D700556627 /* MyColor.swift */; };
+		FA157FDB2B0757DD00556627 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA157FDA2B0757DD00556627 /* MyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		FA157FD42B0746C800556627 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
 		FA157FD62B07501700556627 /* MySpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpacer.swift; sourceTree = "<group>"; };
 		FA157FD82B0754D700556627 /* MyColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColor.swift; sourceTree = "<group>"; };
+		FA157FDA2B0757DD00556627 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				FA157FD42B0746C800556627 /* MyList.swift */,
 				FA157FD62B07501700556627 /* MySpacer.swift */,
 				FA157FD82B0754D700556627 /* MyColor.swift */,
+				FA157FDA2B0757DD00556627 /* MyView.swift */,
 				FA157FC22B0734B400556627 /* Assets.xcassets */,
 				FA157FC42B0734B400556627 /* Preview Content */,
 			);
@@ -160,6 +163,7 @@
 			files = (
 				FA157FD32B07448800556627 /* MyScroll.swift in Sources */,
 				FA157FC12B0734B300556627 /* MyButton.swift in Sources */,
+				FA157FDB2B0757DD00556627 /* MyView.swift in Sources */,
 				FA157FD92B0754D700556627 /* MyColor.swift in Sources */,
 				FA157FD52B0746C800556627 /* MyList.swift in Sources */,
 				FA157FCF2B073F8100556627 /* MyImage.swift in Sources */,
