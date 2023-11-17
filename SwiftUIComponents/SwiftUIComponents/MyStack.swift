@@ -35,3 +35,4 @@ struct MyStack: View {
 // VStack은 수직으로 쌓을 수 있음
 // HStack은 수평으로 쌓을 수 있음
 // ZStack은 겹칠 수 있음
+// Content가 화면보다 커져도 Scroll 안됨

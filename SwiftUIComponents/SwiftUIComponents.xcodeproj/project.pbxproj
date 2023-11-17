@@ -14,6 +14,7 @@
 		FA157FCD2B073ACB00556627 /* MyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA157FCC2B073ACB00556627 /* MyText.swift */; };
 		FA157FCF2B073F8100556627 /* MyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA157FCE2B073F8100556627 /* MyImage.swift */; };
 		FA157FD12B0742CB00556627 /* MyStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA157FD02B0742CB00556627 /* MyStack.swift */; };
+		FA157FD32B07448800556627 /* MyScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA157FD22B07448800556627 /* MyScroll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		FA157FCC2B073ACB00556627 /* MyText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyText.swift; sourceTree = "<group>"; };
 		FA157FCE2B073F8100556627 /* MyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImage.swift; sourceTree = "<group>"; };
 		FA157FD02B0742CB00556627 /* MyStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStack.swift; sourceTree = "<group>"; };
+		FA157FD22B07448800556627 /* MyScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScroll.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				FA157FCC2B073ACB00556627 /* MyText.swift */,
 				FA157FCE2B073F8100556627 /* MyImage.swift */,
 				FA157FD02B0742CB00556627 /* MyStack.swift */,
+				FA157FD22B07448800556627 /* MyScroll.swift */,
 				FA157FC22B0734B400556627 /* Assets.xcassets */,
 				FA157FC42B0734B400556627 /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA157FD32B07448800556627 /* MyScroll.swift in Sources */,
 				FA157FC12B0734B300556627 /* MyButton.swift in Sources */,
 				FA157FCF2B073F8100556627 /* MyImage.swift in Sources */,
 				FA157FCD2B073ACB00556627 /* MyText.swift in Sources */,
