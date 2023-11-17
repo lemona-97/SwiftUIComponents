@@ -12,6 +12,7 @@
 		FA157FC32B0734B400556627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA157FC22B0734B400556627 /* Assets.xcassets */; };
 		FA157FC62B0734B400556627 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA157FC52B0734B400556627 /* Preview Assets.xcassets */; };
 		FA157FCD2B073ACB00556627 /* MyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA157FCC2B073ACB00556627 /* MyText.swift */; };
+		FA157FCF2B073F8100556627 /* MyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA157FCE2B073F8100556627 /* MyImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		FA157FC22B0734B400556627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA157FC52B0734B400556627 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA157FCC2B073ACB00556627 /* MyText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyText.swift; sourceTree = "<group>"; };
+		FA157FCE2B073F8100556627 /* MyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				FA157FBE2B0734B300556627 /* SwiftUIComponentsApp.swift */,
 				FA157FC02B0734B300556627 /* MyButton.swift */,
 				FA157FCC2B073ACB00556627 /* MyText.swift */,
+				FA157FCE2B073F8100556627 /* MyImage.swift */,
 				FA157FC22B0734B400556627 /* Assets.xcassets */,
 				FA157FC42B0734B400556627 /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA157FC12B0734B300556627 /* MyButton.swift in Sources */,
+				FA157FCF2B073F8100556627 /* MyImage.swift in Sources */,
 				FA157FCD2B073ACB00556627 /* MyText.swift in Sources */,
 				FA157FBF2B0734B300556627 /* SwiftUIComponentsApp.swift in Sources */,
 			);
