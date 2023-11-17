@@ -9,13 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+//        Button(action: {
+//            print("Hited2")
+//        }, label: { // View 타입 가능 텍스트, 이미지
+//            Text("Henry")
+//                .padding(20)
+//                .frame(width: 150)
+//                .background(.purple)
+//                .padding(20)
+//                .background(.red)
+//                .clipShape(.capsule, style: .init(eoFill: true, antialiased: true))
+//        })
+        Button("Delete", role: .none) {
+            print("deleted!")
         }
-        .padding()
     }
 }
 
